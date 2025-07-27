@@ -1,8 +1,0 @@
-{
-  "workbench.colorTheme": "Alt Catppuccin Mocha",
-  "window.titleBarStyle": "custom",
-  "workbench.iconTheme": "material-icon-theme",
-  "files.autoSave": "afterDelay",
-  "explorer.confirmDelete": false,
-  "workbench.activityBar.location": "bottom"
-}

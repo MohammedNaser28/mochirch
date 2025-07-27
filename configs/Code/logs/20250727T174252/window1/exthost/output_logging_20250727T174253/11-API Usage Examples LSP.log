@@ -1,8 +1,0 @@
-(node:42037) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-Logger Init
-Initialization complete.
-Loaded supported calls (Version 1.5)
-Batch of 9 Total time: 289ms (Avg. Per Call: 32ms)
-Batch of 3 Total time: 269ms (Avg. Per Call: 90ms)
-Batch of 1 Total time: 281ms (Avg. Per Call: 281ms)
