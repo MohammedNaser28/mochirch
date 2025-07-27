@@ -3,61 +3,48 @@ import shutil
 import subprocess
 import traceback
 from pathlib import Path
-
 from loguru import logger
-
 
 class FileSystemManager:
     @staticmethod
     def create_default_folders() -> None:
         logger.success("Starting the process of creating default directories")
-
         default_folders = [
-            ".config",
-            "Desktop",
-            "Downloads",
-            "Templates",
-            "Public",
-            "Documents",
-            "Music",
-            "Pictures",
-            "Videos",
+            ".config", "Desktop", "Downloads", "Templates", "Public",
+            "Documents", "Music", "Pictures", "Videos"
         ]
-
         expanded_folders = [str(Path.home() / folder) for folder in default_folders]
-
         try:
             subprocess.run(["mkdir", "-p", *expanded_folders], check=True)
         except Exception:
-            logger.error(
-                f"Error creating default directories: {traceback.format_exc()}"
-            )
-
+            logger.error(f"Error creating default directories: {traceback.format_exc()}")
         logger.success("The process of creating default directories is complete!")
 
     @staticmethod
     def copy_with_exclusions(src: Path, dst: Path, exclusions: list) -> None:
         os.makedirs(dst, exist_ok=True)
-
         for item in os.listdir(src):
             item_path = os.path.join(src, item)
             if item in exclusions:
                 continue
-
+            dest_path = os.path.join(dst, item)
             if os.path.isdir(item_path):
                 FileSystemManager.copy_with_exclusions(
-                    src=item_path, 
-                    dst=os.path.join(dst, item), 
+                    src=Path(item_path),
+                    dst=Path(dest_path),
                     exclusions=exclusions
                 )
             else:
-                shutil.copy2(item_path, dst)
+                if os.path.exists(dest_path):
+                    logger.info(f"Backing up existing file: {dest_path}")
+                    os.rename(dest_path, f"{dest_path}.bak")
+                os.symlink(item_path, dest_path)
+                logger.success(f"Symlinked {item_path} to {dest_path}")
 
     @staticmethod
     def make_backup(dst: Path = Path("./backup")) -> None:
         os.makedirs(dst, exist_ok=True)
         home = Path.home()
-
         config_path = home / ".config"
         bin_path = home / "bin"
         nemo_path = home / ".local" / "share" / "nemo"
@@ -88,11 +75,7 @@ class FileSystemManager:
             try:
                 nemo_dest = dst / ".local" / "share" / "nemo"
                 nemo_dest.mkdir(parents=True, exist_ok=True)
-                shutil.copytree(
-                    src=nemo_path,
-                    dst=dst / ".local" / "share" / "nemo",
-                    dirs_exist_ok=True,
-                )
+                shutil.copytree(src=nemo_path, dst=nemo_dest, dirs_exist_ok=True)
                 logger.success("Successfully backed up the \".local/share/nemo\" folder")
             except Exception:
                 logger.error(f"An error occurred during copying: {traceback.format_exc()}")
@@ -140,47 +123,65 @@ class FileSystemManager:
                 logger.error(f"An error occurred during copying: {traceback.format_exc()}")
 
     @staticmethod
-    def copy_dotfiles(exclude_bspwm: bool, exclude_hyprland: bool) -> None:
+    def copy_dotfiles(exclude_bspwm: bool, exclude_hyprland: bool, configs_dir: str = "configs") -> None:
         logger.success("Starting the process of copying dotfiles")
         home = Path.home()
-
-        ##==> Копирование дотфайлов
-        ##############################################
         config_folders_exclusions = []
         if exclude_bspwm:
             config_folders_exclusions.extend(["bspwm", "polybar"])
         if exclude_hyprland:
             config_folders_exclusions.extend(["hypr", "swaylock", "waybar"])
 
+        # Symlink configs/ to ~/.config/
         FileSystemManager.copy_with_exclusions(
-            src=Path("./home/.config"),
+            src=Path(configs_dir),
             dst=home / ".config",
             exclusions=config_folders_exclusions,
         )
 
-        shutil.copytree(src=Path("./home/bin"), dst=home / "bin", dirs_exist_ok=True)
-        shutil.copytree(
-            src=Path("./home/.local/share/nemo"),
-            dst=home / ".local" / "share" / "nemo",
-            dirs_exist_ok=True,
-        )
-        shutil.copy(src=Path("./home/.bashrc"), dst=home / ".bashrc")
-        shutil.copy(src=Path("./home/.env"), dst=home / ".env")
+        # Symlink other dotfiles if they exist in configs_dir
+        additional_files = [
+            (f"{configs_dir}/.bashrc", home / ".bashrc"),
+            (f"{configs_dir}/.env", home / ".env"),
+            (f"{configs_dir}/.Xresources", home / ".Xresources", not exclude_bspwm),
+            (f"{configs_dir}/.xinitrc", home / ".xinitrc", not exclude_bspwm),
+            (f"{configs_dir}/.icons/default/index.theme", home / ".icons" / "default" / "index.theme", True),
+        ]
+        for src, dst, condition in additional_files:
+            src_path = Path(src)
+            if condition and src_path.exists():
+                if dst.exists():
+                    logger.info(f"Backing up existing file: {dst}")
+                    os.rename(dst, f"{dst}.bak")
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                os.symlink(src_path, dst)
+                logger.success(f"Symlinked {src_path} to {dst}")
 
-        if not exclude_bspwm:
-            shutil.copy(src=Path("./home/.Xresources"), dst=home / ".Xresources")
-            shutil.copy(src=Path("./home/.xinitrc"), dst=home / ".xinitrc")
+        # Symlink bin/ if it exists
+        bin_src = Path(f"{configs_dir}/bin")
+        if bin_src.exists():
+            bin_dst = home / "bin"
+            if bin_dst.exists():
+                logger.info(f"Backing up existing directory: {bin_dst}")
+                shutil.move(bin_dst, f"{bin_dst}.bak")
+            os.symlink(bin_src, bin_dst)
+            logger.success(f"Symlinked {bin_src} to {bin_dst}")
 
-        destination = home / ".icons" / "default" / "index.theme"
-        destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy(src=Path("./home/.icons/default/index.theme"), dst=destination)
+        # Symlink .local/share/nemo/ if it exists
+        nemo_src = Path(f"{configs_dir}/.local/share/nemo")
+        if nemo_src.exists():
+            nemo_dst = home / ".local" / "share" / "nemo"
+            nemo_dst.parent.mkdir(parents=True, exist_ok=True)
+            if nemo_dst.exists():
+                logger.info(f"Backing up existing directory: {nemo_dst}")
+                shutil.move(nemo_dst, f"{nemo_dst}.bak")
+            os.symlink(nemo_src, nemo_dst)
+            logger.success(f"Symlinked {nemo_src} to {nemo_dst}")
 
-        ##==> Выдаем права
-        ##############################################
+        # Set permissions
         for path in [home / ".config", home / "bin"]:
-            try:
-                subprocess.run(["sudo", "chmod", "-R", "700", str(path)], check=True)
-            except Exception:
-                logger.error(
-                    f"[!] Error while making {path} executable: {traceback.format_exc()}"
-                )
+            if path.exists():
+                try:
+                    subprocess.run(["sudo", "chmod", "-R", "700", str(path)], check=True)
+                except Exception:
+                    logger.error(f"[!] Error while making {path} executable: {traceback.format_exc()}")
