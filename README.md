@@ -2,252 +2,150 @@
 
 <img src="assests/Bocchi_The_Goth.jpg" width="300px">
 
-<h1>Mochi 🍡</h1>
+# 🍡 Mochiarch — Where Rice Meets Ricing 🍡
 
 </div>
 
----
-
-<!-- INFORMATION -->
 
 <table align="right">
 
-<tr>
-<td colspan="2" align="center">System Parameters</td>
-</tr>
-
-<tr>
-<th>Component</th>
-<th>Name</th>
-</tr>
-
-<tr>
-<td>OS</td>
-<td><a href="https://archlinux.org/">Arch Linux</a></td>
-</tr>
-
-<tr>
-<td>WM</td>
-<td><a href="https://hyprland.org/">Hyprland</a></td>
-</tr>
-
-<tr>
-<td>Bar</td>
-<td><a href="https://github.com/Alexays/Waybar">Waybar</a></td>
-</tr>
-
-<tr>
-<td>Compositor</td>
-<td><a href="https://github.com/yshui/picom">Picom</a> | Built-in</td>
-</tr>
-
-<tr>
-<td>Terminal</td>
-<td><a href="https://github.com/kovidgoyal/kitty">Kitty</a></td>
-</tr>
-
-<tr>
-<td>App Launcher</td>
-<td><a href="https://github.com/davatorium/rofi">Rofi</a></td>
-</tr>
-
-<tr>
-<td>Notify Daemon</td>
-<td><a href="https://github.com/ErikReider/SwayNotificationCenter">Swaync</a></td>
-</tr>
-
-<tr>
-<td>Shell</td>
-<td><a href="https://github.com/fish-shell/fish-shell">Fish</a></td>
-</tr>
+<tr><td colspan="2" align="center">⚙️ System Parameters</td></tr>
+<tr><th>Component</th><th>Name</th></tr>
+<tr><td>OS</td><td><a href="https://archlinux.org/">Arch btw</a> 🧠</td></tr>
+<tr><td>WM</td><td><a href="https://hyprland.org/">Hyprland</a> 🌀</td></tr>
+<tr><td>Bar</td><td><a href="https://github.com/Alexays/Waybar">Waybar</a> 🚥</td></tr>
+<tr><td>Compositor</td><td><a href="https://github.com/yshui/picom">Picom</a> | Built-in ✨</td></tr>
+<tr><td>Terminal</td><td><a href="https://github.com/kovidgoyal/kitty">Kitty</a> 🐱</td></tr>
+<tr><td>App Launcher</td><td><a href="https://github.com/davatorium/rofi">Rofi</a> 🚀</td></tr>
+<tr><td>Notify Daemon</td><td><a href="https://github.com/ErikReider/SwayNotificationCenter">Swaync</a> 🔔</td></tr>
+<tr><td>Shell</td><td><a href="https://github.com/fish-shell/fish-shell">Fish</a> 🐟</td></tr>
 
 </table>
 
-<div align="left">
+## 📝 About Mochiarch
 
-## 📝 About the Project
+Mochiarch is like Arch Linux... but cuter 😳  
+A dotfiles setup forged from the configs of the legends:  
+👉 [JaKooLit](https://github.com/JaKooLit/Hyprland-Dots)  
+👉 [meowrch](https://github.com/meowrch/meowrch)  
 
-Mochiarch is a blend of configurations inspired by <a href="https://github.com/JaKooLit/Hyprland-Dots">JaKooLit</a> and <a href="https://github.com/meowrch/meowrch">Meowrch</a>, designed to maximize performance, ergonomics, and beauty.
+Built for power, minimalism, and pure aesthetic bliss ✨  
+(also works great with your 3AM coding breakdowns)
+
+---
 
 ## 🚀 Features
 
-- Fully configured for comfortable daily use.
-- Merged several scripts for high customizability.
-- Modern and sleek design.
-- Continuous and reliable support (as long as I'm around!).
+- Pre-configured like a deluxe bento box 🍱  
+- One script to rice them all 🧙  
+- Aesthetic? Yes. Usable? Double yes.  
+- Support? As long as I don't disappear like your motivation to debug 😅
 
-</div>
-<br>
-<br>
+---
 
-> [!WARNING]
-> If it works, don't touch it!
+> ⚠️ **If it works... DON'T TOUCH ANYTHING** ✨
 
-<!-- IMAGES -->
+---
+
+## 🖼️ Screenshots
 
 <table align="center">
-
+<tr><td colspan="4"><img src="assests/im1.png"></td></tr>
 <tr>
-<td colspan="4"><img src="assests/im1.png"></td>
+<td><img src="assests/im2.png"></td>
+<td><img src="assests/im3.png"></td>
+<td><img src="assests/im4.png"></td>
 </tr>
-
 <tr>
-<td colspan="1"><img src="assests/im2.png"></td>
-<td colspan="1"><img src="assests/im3.png"></td>
-<td colspan="1"><img src="assests/im4.png"></td>
+<td><img src="assests/im5.png"></td>
+<td><img src="assests/im6.png"></td>
+<td><img src="assests/im7.png"></td>
 </tr>
-
-<tr>
-<td colspan="1"><img src="assests/im5.png"></td>
-<td colspan="1"><img src="assests/im6.png"></td>
-<td colspan="1"><img src="assests/im7.png"></td>
-</tr>
-
 </table>
 
-<!-- INSTALLATION -->
+## 🛠 How to Install (aka: The Ritual)
 
-## 🛠 Installation
+Supports: **Arch**, **EndeavourOS**, **Fedora**
 
-Mochiarch is designed for Arch Linux, EndeavourOS, or Fedora. Follow these steps to install:
+### 1. Clone the base installer
 
-### 1. Clone the repository
 ```bash
 git clone https://github.com/meowrch/meowrch.git
 ```
-### 2. Go to the catalog with the project
+
+### 2. Enter the installer directory
+
 ```bash
 cd meowrch
 ```
-### 3. Start the automatic installation
+
+### 3. Run the installer
+
 ```bash
 sh install.sh
 ```
-### 4. Clome this Repo
+
+### 4. Clone this repo
+
 ```bash
 git clone https://github.com/mochi-002/mochirch.git
 ```
-### 5. Navigate to the project directory
+
+### 5. Navigate to the project folder
+
 ```bash
 cd ~/dotfiles
 ```
-### 6. Start the automatic installation
+
+### 6. Run the full setup
+
 ```bash
 sh Complete.sh
 ```
 
-> [!important]
-> After installation, you **must** reboot to apply the changes.
+> 🔁 **Reboot is required** to apply changes.
 
+> 💡 **Installer navigation:**
+>
+> * `Space`: Select
+> * `Enter`: Next
+> * `Ctrl+C`: Escape reality
 
-> [!note]
-> Instructions for navigating the installer menu:
-> - Selecting an item in the menu: Press the Spacebar to select the desired item.
-> - Advance to next step: Press Enter to advance to the next step.
+---
 
-<h2>💻 Help</h2>
-I'm the one who needs help sometimes! 😅 If you run into issues i don`t know what to do 🖤
+## ⌨️ Hotkeys — aka Keyboard Wizardry
 
-<h2>💻 Hotkeys</h2>
-<table align="center">
-	<tr>
-		<td colspan="3" align="center">Key combinations</td>
-	</tr>
-    <tr>
-        <th>Name of action</th>
-        <th>Hyprland</th>
-		<th>Bspwm</th>
-    </tr>
-	<tr>
-        <td>Open terminal</td>
-		<td colspan="2" align="center">super + enter</td>
-    </tr>
-    <tr>
-        <td>Open the application menu</td>
-		<td colspan="2" align="center">super + d</td>
-    </tr>
-	<tr>
-        <td>Open the file manager</td>
-		<td colspan="2" align="center">super + e</td>
-    </tr>
-	<tr>
-        <td>Open the Firefox</td>
-		<td colspan="2" align="center">super + b</td>
-    </tr>
-	<tr>
-        <td>Open the VSCode</td>
-		<td colspan="2" align="center">super + shift + c</td>
-    </tr>
-	<tr>
-        <td>Open Task Manager (btop)</td>
-		<td colspan="2" align="center">ctrl + shift + esc</td>
-    </tr>
-	<tr>
-        <td>Open a selection of emoji</td>
-		<td colspan="2" align="center">super + .</td>
-    </tr>
-    <tr>
-        <td>Open the power on/off menu of the computer</td>
-		<td colspan="2" align="center">ctrl + alt_L + p</td>
-    </tr>
-	<tr>
-        <td>Take a screenshot</td>
-		<td colspan="2" align="center">super + shift + PrintScreen</td>
-    </tr>
-	<tr>
-        <td>Change the wallpaper</td>
-		<td colspan="2" align="center">super + w</td>
-    </tr>
-	<tr>
-        <td>Change the layout</td>
-		<td colspan="2" align="center">shift + alt</td>
-    </tr>
-    <tr>
-        <td>Recognize the color on the screen</td>
-		<td colspan="2" align="center">super + c</td>
-    </tr>
-    <tr>
-        <td>Lock the screen</td>
-        <td colspan="2" align="center">ctrl + alt_L + l</td>
-    </tr>
-	<tr>
-        <td>Switch to another workspace</td>
-		<td colspan="2" align="center">super + 1-10</td>
-    </tr>
-	<tr>
-        <td>Switch to the hidden workspace</td>
-		<td colspan="2" align="center">super + s</td>
-    </tr>
-    <tr>
-        <td>Move the active window to another workspace</td>
-		<td colspan="2" align="center">super + shift + 1-10</td>
-    </tr>
-    <tr>
-        <td>Switch the active window to floating mode</td>
-		<td colspan="2" align="center">super + space</td>
-    </tr>
-	<tr>
-        <td>Switch the active window to full-size mode</td>
-		<td colspan="2" align="center">super + shift + f</td>
-    </tr>
-    <tr>
-        <td>Close the active window</td>
-		<td colspan="2" align="center">super + q</td>
-    </tr>
-    <tr>
-        <td>Restart Rofi, waybar</td>
-		<td colspan="2" align="center">super + alt + r</td>
-    </tr>
-	<tr>
-        <td>Open Scripts Menu</td>
-		<td colspan="2" align="center">super + x</td>
-    </tr>
-	<tr>
-        <td>Open Keybinds list</td>
-		<td colspan="2" align="center">super + shift + k</td>
-    </tr>
-	<tr>
-		<td>The entire configuration is in: </td>
-		<td colspan="2" align="center">~/.config/hypr/UserConfigs/UserKeybindings.conf</td>
-	</tr>
-</table>
+| Action                   | Keybind                       |
+| ------------------------ | ----------------------------- |
+| Open Terminal            | `super + enter`               |
+| Launch App Menu (Rofi)   | `super + d`                   |
+| Open File Manager        | `super + e`                   |
+| Open Firefox             | `super + b`                   |
+| Open VSCode              | `super + shift + c`           |
+| Open Task Manager (btop) | `ctrl + shift + esc`          |
+| Emoji Picker             | `super + .`                   |
+| Power Menu               | `ctrl + alt + p`              |
+| Take Screenshot          | `super + shift + PrintScreen` |
+| Change Wallpaper         | `super + w`                   |
+| Change Keyboard Layout   | `shift + alt`                 |
+| Color Picker             | `super + c`                   |
+| Lock Screen              | `ctrl + alt + l`              |
+| Switch Workspaces        | `super + 1-10`                |
+| Hidden Workspace         | `super + s`                   |
+| Move Window to Workspace | `super + shift + 1-10`        |
+| Toggle Floating Mode     | `super + space`               |
+| Maximize Window          | `super + shift + f`           |
+| Close Active Window      | `super + q`                   |
+| Restart Rofi/Waybar      | `super + alt + r`             |
+| Scripts Menu             | `super + x`                   |
+| Open Keybinds List       | `super + shift + k`           |
+
+📂 Config file:
+`~/.config/hypr/UserConfigs/UserKeybindings.conf`
+
+---
+
+## 💻 Help?
+
+Honestly... same 😅
+But hey, open an issue — we'll suffer together 💖
