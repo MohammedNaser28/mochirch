@@ -127,9 +127,9 @@ sh install.sh
 ```bash
 git clone https://github.com/mochi-002/mochirch.git
 ```
-### 5. Go to the project
+### 5. Navigate to the project directory
 ```bash
-cd mochirch
+cd ~/dotfiles
 ```
 ### 6. Start the automatic installation
 ```bash
