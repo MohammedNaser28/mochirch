@@ -94,7 +94,7 @@ git clone https://github.com/mochi-002/mochirch.git
 ### 5. Navigate to the project folder
 
 ```bash
-cd ~/dotfiles
+cd dotfiles
 ```
 
 ### 6. Run the full setup
