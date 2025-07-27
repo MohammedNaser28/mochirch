@@ -1,2 +1,0 @@
-def addo(a, b) :
-  
