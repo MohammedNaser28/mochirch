@@ -1,0 +1,72 @@
+["INFO" - 11:40:37 PM] Existing installation id found, no need to create a new one.
+"4ba01e22-c615-4b10-98cd-dd6127b9e9bf"
+["DEBUG" - 11:40:37 PM] Error fetching feature flags
+{}
+["DEBUG" - 11:40:37 PM] Initializing db
+"/home/mochi-002/.config/Code/User/workspaceStorage/f05d9f8bf3ab0367f8cae74ebe9dcbe4/Codium.codium"
+["DEBUG" - 11:40:37 PM] Registered uninstall hook.
+["DEBUG" - 11:40:37 PM] FileSystem - Registered URI scheme: qodoMcpEditdiff
+["DEBUG" - 11:40:37 PM] FileSystem - Registered URI scheme: qodoToolsDiff
+["ERROR" - 11:40:47 PM] Failed getting refresh token, trying again.
+["ERROR" - 11:40:47 PM] getaddrinfo EAI_AGAIN securetoken.googleapis.com
+Error: getaddrinfo EAI_AGAIN securetoken.googleapis.com
+	at pA.from (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8754244)
+	at w.<anonymous> (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8777380)
+	at w.emit (node:events:518:28)
+	at p.forEach.B.<computed> (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4164534)
+	at ClientRequest.emit (node:events:530:35)
+	at emitErrorEvent (node:_http_client:104:11)
+	at TLSSocket.socketErrorListener (node:_http_client:518:5)
+	at TLSSocket.emit (node:events:518:28)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Error: Axios Better Stacktrace
+	at n.forEach.A.<computed> [as post] (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8515053)
+	at t (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225116)
+	at e.CodiumGAuthAPI.getNewIdToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225161)
+	at Q.getAccessToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8831619)
+	at Q.attemptAutoLogin (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8829511)
+	at g.login (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8887203)
+	at ct.request (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8789455)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async e.CodiumGAuthAPI.getNewIdToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225155)
+	at async Q.getAccessToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8831600)
+	at async Q.attemptAutoLogin (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8829500)
+	at async g.login (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8887179)
+["ERROR" - 11:40:49 PM] Failed getting refresh token the second time.
+["ERROR" - 11:40:49 PM] getaddrinfo EAI_AGAIN securetoken.googleapis.com
+Error: getaddrinfo EAI_AGAIN securetoken.googleapis.com
+	at pA.from (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8754244)
+	at w.<anonymous> (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8777380)
+	at w.emit (node:events:518:28)
+	at p.forEach.B.<computed> (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4164534)
+	at ClientRequest.emit (node:events:530:35)
+	at emitErrorEvent (node:_http_client:104:11)
+	at TLSSocket.socketErrorListener (node:_http_client:518:5)
+	at TLSSocket.emit (node:events:518:28)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Error: Axios Better Stacktrace
+	at n.forEach.A.<computed> [as post] (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8515053)
+	at t (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225116)
+	at e.CodiumGAuthAPI.getNewIdToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225309)
+	at async Q.getAccessToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8831600)
+	at async Q.attemptAutoLogin (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8829500)
+	at async g.login (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8887179)
+	at ct.request (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8789455)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async e.CodiumGAuthAPI.getNewIdToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225303)
+	at async Q.getAccessToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8831600)
+	at async Q.attemptAutoLogin (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8829500)
+	at async g.login (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8887179)
+["ERROR" - 11:40:49 PM] auth_service.ts:login error
+{
+  "message": "Please try to login again.",
+  "name": "Error",
+  "stack": "Error: Please try to login again.\n\tat e.CodiumGAuthAPI.getNewIdToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:4225553)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n\tat async Q.getAccessToken (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8831600)\n\tat async Q.attemptAutoLogin (/home/mochi-002/.vscode/extensions/codium.codium-1.5.12/dist/extension.js:2:8829500)"
+}
+["INFO" - 11:40:49 PM] FileSystem - Cancelling current agent session
+["DEBUG" - 11:41:17 PM] Deactivating Codium provider
+"2025-07-27T20:41:17.687Z"

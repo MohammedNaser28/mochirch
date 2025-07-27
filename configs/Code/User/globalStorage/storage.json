@@ -1,0 +1,181 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8edc335bf18d20a7ed57efb6d9abdfb564cb065daf7ad2fa2cacedcd27623cca",
+    "telemetry.devDeviceId": "81f33cc3-f106-4457-8cbd-b016b6e7bcef",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/mochi-002/dotfiles"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/competitive": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/web": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/python-scripts": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/python.code-workspace": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/Workspaces/python.code-workspace": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/java-oop": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/Workspaces/competitive.code-workspace": "__default__profile__",
+            "file:///home/mochi-002/Documents/obsid": "__default__profile__",
+            "file:///home/mochi-002/Documents/DB%20-%20Programmong/Workspaces/web.code-workspace": "__default__profile__",
+            "file:///home/mochi-002/dotfiles": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#11111b",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#181825",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#11111b",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 254,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/mochi-002/dotfiles",
+            "backupPath": "/home/mochi-002/.config/Code/Backups/94efd3390bb57abadd64313a6f7d3705",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 254,
+            "auxiliaryBarWidth": 333,
+            "workspaces": {
+                "626f9bb8f835dea785e7eacea068954b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "36d992ac80688ee469e50c1fd49f07b5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "1322d2fb36c9b499514ed388aa189302": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e4be8151b976aaa7f488935db10aec35": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9391428766c726b31e9cbed6fc2eb558": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "bef4378200e155cd4c03cacab188ac01": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "33a557e80b9b783ba53cb5e4d779d661": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3cc4a8d81b14b113ed11d75d8c954020": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "24fb7478bc28710b49f43e190c766513": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2ddc399823c673811ca70ab5d3e64033": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4ae68ad3d3127abae0bd7f7a49e42c7b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1a0ef4c360e79b196e0cbf3d0e6bd0e4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a41c7548996ad1a12b0ba1c12ad4bbf6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1fdfbf5c9b73d2dc804a016bc6c20367": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9bd6800176716c1f01b8034b98091aa8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9fbc979a8bec277b5f1bc50af3f04d88": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8dfae26140671873882d65937ef03076": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "70aeed3a951fc15e05a45f42676f4dcf": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "602f603be36757081ea0eeb98ce24eb9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "71d70d3ed381460148a086af9b09f716": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "09ad4e0c032432c18f0e86384a11a3ba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2d3453da53f5b1cf9f924ee1cb4d7a88": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "30a00d50bd565482b1dd04310c302769": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f05d9f8bf3ab0367f8cae74ebe9dcbe4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

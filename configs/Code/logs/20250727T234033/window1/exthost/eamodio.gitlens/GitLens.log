@@ -1,0 +1,29 @@
+2025-07-27 23:40:37.672 [info] GitLens v17.3.2 activating in Visual Studio Code (1.102.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (8edc335bf18d20a7ed57efb6d9abdfb564cb065daf7ad2fa2cacedcd27623cca|586ce780-3e5c-41ff-a232-04402cf1049b1753648833981)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-07-27 23:40:47.864 [info] [2025-07-27 20:40:47.362] [            3] ProductConfigProvider.load 
+FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: getaddrinfo EAI_AGAIN configs.gitkraken.dev
+[2025-07-27 20:40:47.363] [            3] ProductConfigProvider.load 
+FetchError: request to https://configs.gitkraken.dev/gitlens/product.json failed, reason: getaddrinfo EAI_AGAIN configs.gitkraken.dev
+
+2025-07-27 23:41:02.493 [info] [2025-07-27 20:41:01.992] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false log --format=%x1E%H%x1D --summary -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6^ -- README.md): fatal: bad revision '0d29421bc3a6bebd251fabb1fd80526da93f9ef6^'
+
+
+2025-07-27 23:41:03.994 [info] [2025-07-27 20:41:03.957] [GIT   *2049ms] [/home/mochi-002/dotfiles] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap -m --no-min-parents -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6 -- [*2049ms] (slow)
+
+2025-07-27 23:41:09.499 [info] [2025-07-27 20:41:09.244] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false log --format=%x1E%H%x1D --summary -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6^ -- README.md): fatal: bad revision '0d29421bc3a6bebd251fabb1fd80526da93f9ef6^'
+
+
+2025-07-27 23:41:11.499 [info] [2025-07-27 20:41:11.279] [GIT   *2064ms] [/home/mochi-002/dotfiles] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap -m --no-min-parents -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6 -- [*2064ms] (slow)
+
+2025-07-27 23:41:11.999 [info] [2025-07-27 20:41:11.790] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false log --format=%x1E%H%x1D --summary -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6^ -- README.md): fatal: bad revision '0d29421bc3a6bebd251fabb1fd80526da93f9ef6^'
+
+
+2025-07-27 23:41:14.001 [info] [2025-07-27 20:41:13.827] [GIT   *2072ms] [/home/mochi-002/dotfiles] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap -m --no-min-parents -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6 -- [*2072ms] (slow)
+
+2025-07-27 23:41:15.501 [info] [2025-07-27 20:41:15.480] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false log --format=%x1E%H%x1D --summary -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6^ -- README.md): fatal: bad revision '0d29421bc3a6bebd251fabb1fd80526da93f9ef6^'
+
+
+2025-07-27 23:41:17.501 [info] [2025-07-27 20:41:17.107] [           26] GitCodeLensProvider.provideCodeLenses(TextDocument(markdown, dirty=false, file:///home/mochi-002/dotfiles/README.md)) Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false log --format=%x1E%H%x1D --summary -n1 0d29421bc3a6bebd251fabb1fd80526da93f9ef6^ -- README.md): fatal: bad revision '0d29421bc3a6bebd251fabb1fd80526da93f9ef6^'
+
+

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../competitive"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iomanip": "cpp"
+		}
+	}
+}

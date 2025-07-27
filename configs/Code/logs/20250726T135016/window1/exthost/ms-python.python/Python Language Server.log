@@ -1,0 +1,17 @@
+2025-07-26 13:50:22.758 [info] (Client) Pylance client (2025.7.1) started with python extension (2025.10.1)
+2025-07-26 13:50:24.131 [info] (3218) Server root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-26 13:50:24.132 [info] (3218) Pylance language server 2025.7.1 (pyright version 1.1.403, commit 8b02aa84) starting
+2025-07-26 13:50:24.153 [info] (3218) Starting service instance "competitive" for workspace "/home/mochi-002/Documents/DB - Programmong/competitive"
+2025-07-26 13:50:24.307 [info] (3218) Setting environmentName for service "competitive": "3.13.5 (.venv venv)"
+2025-07-26 13:50:24.307 [info] (3218) Setting pythonPath for service "competitive": "/home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python"
+2025-07-26 13:50:24.308 [info] (3218) No include entries specified; assuming /home/mochi-002/Documents/DB - Programmong/competitive
+2025-07-26 13:50:24.311 [info] (3218) Auto-excluding **/node_modules
+2025-07-26 13:50:24.311 [info] (3218) Auto-excluding **/__pycache__
+2025-07-26 13:50:24.312 [info] (3218) Auto-excluding **/.*
+2025-07-26 13:50:24.388 [info] (3218) Assuming Python version 3.13.5.final.0
+2025-07-26 13:50:24.524 [info] (3218) Found 1 source file
+2025-07-26 13:50:24.546 [info] (3218) Settings have not changed. Skipping update.
+2025-07-26 13:50:24.567 [info] (3218) Starting Mcp server id:5789 ...
+2025-07-26 13:50:24.624 [info] (3218) Settings have not changed. Skipping update.
+2025-07-26 13:50:25.254 [info] (3218) BG: Priority queue background worker(2) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-26 13:50:25.255 [info] (3218) BG: Priority queue background worker(2) started

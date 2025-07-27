@@ -1,0 +1,25 @@
+h2 {
+    background-color: #232946; 
+    color: #eebbc3;           
+    width: 343px;
+}
+
+h4 {
+    background-color: #121629; 
+    color: #eebbc3;           
+    width: 560px;
+}
+
+h5 {
+    background-color: #121629; 
+    color: #fffffe;         
+    width: 560px;
+}
+
+button {
+    background-color: #393e46; 
+    color: #eebbc3;            
+    width: 280px;
+    height: 50px;
+
+}

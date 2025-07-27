@@ -1,0 +1,6 @@
+2025-07-27 22:49:12.874 [info] Getting Manifest... shd101wyy.markdown-preview-enhanced
+2025-07-27 22:49:13.106 [info] Installing extension: shd101wyy.markdown-preview-enhanced {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mochi-002/.vscode/extensions/extensions.json","path":"/home/mochi-002/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"}}
+2025-07-27 22:49:18.820 [info] Extension signature verification result for shd101wyy.markdown-preview-enhanced: Success. Internal Code: 0. Executed: true. Duration: 536ms.
+2025-07-27 22:49:19.033 [info] Extracted extension to file:///home/mochi-002/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.18: shd101wyy.markdown-preview-enhanced
+2025-07-27 22:49:19.045 [info] Renamed to /home/mochi-002/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.18
+2025-07-27 22:49:19.087 [info] Extension installed successfully: shd101wyy.markdown-preview-enhanced vscode-userdata:/home/mochi-002/.vscode/extensions/extensions.json

@@ -1,0 +1,60 @@
+2025-07-27 23:54:33.515 [info] Extension host with pid 35416 started
+2025-07-27 23:54:33.515 [info] Skipping acquiring lock for /home/mochi-002/.config/Code/User/workspaceStorage/f05d9f8bf3ab0367f8cae74ebe9dcbe4.
+2025-07-27 23:54:33.675 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-27 23:54:33.697 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-07-27 23:54:33.699 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-27 23:54:33.711 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-27 23:54:33.719 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-27 23:54:33.777 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-27 23:54:33.784 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-27 23:54:34.393 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-27 23:54:34.548 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2025-07-27 23:54:34.630 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-27 23:54:34.632 [info] ExtensionService#_doActivateExtension DivyanshuAgrawal.competitive-programming-helper, startup: true, activationEvent: '*'
+2025-07-27 23:54:34.649 [info] ExtensionService#_doActivateExtension dooez.alt-catppuccin-vsc, startup: true, activationEvent: '*'
+2025-07-27 23:54:34.653 [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard, startup: true, activationEvent: '*'
+2025-07-27 23:54:34.659 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-07-27 23:54:34.777 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-27 23:54:34.810 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-27 23:54:35.044 [info] Eager extensions activated
+2025-07-27 23:54:35.082 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.094 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.114 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.118 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.132 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.144 [info] ExtensionService#_doActivateExtension Codium.codium, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.583 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.609 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.733 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.785 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.797 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.799 [info] ExtensionService#_doActivateExtension tonybaloney.vscode-pets, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:54:35.804 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 23:55:06.867 [warning] TextEditor is closed/disposed
+2025-07-27 23:55:12.148 [warning] TextEditor is closed/disposed
+2025-07-28 00:05:16.287 [warning] TextEditor is closed/disposed
+2025-07-28 00:08:57.668 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-28 00:08:57.738 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-07-28 00:08:57.740 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:121704)
+	at Yv.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at Yv.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at Object.dispose (/home/mochi-002/.vscode/extensions/eamodio.gitlens-17.3.2/dist/gitlens.js:536:29282)
+	at /home/mochi-002/.vscode/extensions/eamodio.gitlens-17.3.2/dist/gitlens.js:813:16179
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mochi-002/.vscode/extensions/eamodio.gitlens-17.3.2/dist/gitlens.js:813:16161)
+	at wr (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:748)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:15048
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1058
+	at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at QG.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:11921)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+	at Array.map (<anonymous>)
+	at QG.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+	at QG.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+	at Y3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+	at us (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:356:6484)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-07-28 00:08:57.746 [info] Extension host with pid 35416 exiting with code 0

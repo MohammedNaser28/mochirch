@@ -1,0 +1,22 @@
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k --> done 
+l --> done
+
+/*
+    k and l --> aces
+    a 
+        for each monster:
+            Choose an attack type (not the same as the previous monster's).
+            Use that attack repeatedly until the monster is defeated (multiple hits may be needed).
+            Then move to the next monster, picking a different attack type.
+        dp[i][last]
+            

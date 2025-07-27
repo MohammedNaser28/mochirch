@@ -1,0 +1,16 @@
+(node:75060) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+Logger Init
+Initialization complete.
+Loaded supported calls (Version 1.5)
+Batch of 11 Total time: 94ms (Avg. Per Call: 9ms)
+Batch of 9 Total time: 280ms (Avg. Per Call: 31ms)
+Batch of 15 Total time: 293ms (Avg. Per Call: 20ms)
+Batch of 12 Total time: 611ms (Avg. Per Call: 51ms)
+getSourceText: unexpected node type 'import_prefix'
+Batch of 3 Total time: 263ms (Avg. Per Call: 88ms)
+getSourceText: unexpected node type 'import_prefix'
+Batch of 9 Total time: 260ms (Avg. Per Call: 29ms)
+Batch of 5 Total time: 279ms (Avg. Per Call: 56ms)
+getSourceText: unexpected node type 'import_prefix'
+Batch of 6 Total time: 328ms (Avg. Per Call: 55ms)

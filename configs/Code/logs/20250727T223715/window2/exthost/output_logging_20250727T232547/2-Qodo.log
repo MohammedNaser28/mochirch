@@ -1,0 +1,40 @@
+["INFO" - 11:25:48 PM] Existing installation id found, no need to create a new one.
+"4ba01e22-c615-4b10-98cd-dd6127b9e9bf"
+["DEBUG" - 11:25:49 PM] Error fetching feature flags
+{}
+["DEBUG" - 11:25:49 PM] Initializing db
+"."
+["DEBUG" - 11:25:49 PM] Registered uninstall hook.
+["DEBUG" - 11:25:49 PM] FileSystem - Registered URI scheme: qodoMcpEditdiff
+["DEBUG" - 11:25:49 PM] FileSystem - Registered URI scheme: qodoToolsDiff
+["DEBUG" - 11:25:54 PM] 🚀 ~ init ~ featureFlags:
+{
+  "items": [
+    {
+      "feature_id": "code_completion",
+      "enabled": true,
+      "masked": false
+    },
+    {
+      "feature_id": "extend_test_suite",
+      "enabled": false,
+      "masked": false
+    },
+    {
+      "feature_id": "pre_pr",
+      "enabled": true,
+      "masked": false
+    }
+  ]
+}
+["DEBUG" - 11:25:54 PM] Registering Codium provider
+"2025-07-27T20:25:54.127Z"
+["DEBUG" - 11:25:54 PM] Initializing Git commit tracker
+["DEBUG" - 11:25:54 PM] Git commit tracking is disabled by feature flag.
+["DEBUG" - 11:25:54 PM] Terminal - Creating new TerminalManager instance
+["INFO" - 11:25:54 PM] Terminal - Initializing Terminal server
+["DEBUG" - 11:25:54 PM] Terminal - Listing Terminal server tools
+["DEBUG" - 11:25:54 PM] request (fb947443-a33b-4a77-aa68-d877f4e030b9) for endpoint tags_health failed with error AxiosError: Request failed with status code 503
+["DEBUG" - 11:25:55 PM] Deactivating Codium provider
+"2025-07-27T20:25:55.416Z"
+["DEBUG" - 11:25:55 PM] Git commit tracker is not active. Nothing to dispose.

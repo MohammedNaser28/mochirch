@@ -1,0 +1,50 @@
+2025-07-27 17:42:54.522 [info] Starting Python Locator /home/mochi-002/.vscode/extensions/ms-python.python-2025.10.1-linux-x64/python-env-tools/bin/pet server
+2025-07-27 17:42:55.596 [info] Discovered manager: (Pyenv) /usr/bin/pyenv
+2025-07-27 17:42:55.598 [info] Discovered env: /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 17:42:55.623 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 17:42:55.956 [info] Discovered env: /bin/python
+2025-07-27 17:42:55.957 [info] Discovered env: /usr/bin/python
+2025-07-27 17:42:56.001 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-07-27 17:42:56.028 [info] Discovered env: /usr/sbin/python
+2025-07-27 17:42:56.149 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-07-27 17:42:56.149 [info] Discovered env: /sbin/python
+2025-07-27 17:42:56.150 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-07-27 17:42:56.150 [info] Discovered env: /usr/sbin/python3
+2025-07-27 17:42:56.150 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-07-27 17:42:56.150 [info] Discovered env: /sbin/python3
+2025-07-27 17:42:56.151 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-07-27 17:42:56.151 [info] Discovered env: /usr/sbin/python3.13
+2025-07-27 17:42:56.151 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-07-27 17:42:56.151 [info] Discovered env: /sbin/python3.13
+2025-07-27 17:42:56.151 [info] Locator Conda took 197.041435ms
+2025-07-27 17:42:56.151 [info] Locator Homebrew took 417.157µs
+2025-07-27 17:42:56.151 [info] Locator LinuxGlobal took 207.711652ms
+2025-07-27 17:42:56.151 [info] Locator PipEnv took 27.979µs
+2025-07-27 17:42:56.151 [info] Locator Pixi took 147.989µs
+2025-07-27 17:42:56.151 [info] Locator Poetry took 705.683µs
+2025-07-27 17:42:56.151 [info] Locator PyEnv took 2.15307ms
+2025-07-27 17:42:56.151 [info] Locator Venv took 59.395µs
+2025-07-27 17:42:56.151 [info] Locator VirtualEnv took 10.264µs
+2025-07-27 17:42:56.151 [info] Locator VirtualEnvWrapper took 61.829µs
+2025-07-27 17:42:56.151 [info] Locator GlobalVirtualEnvs took 279.531µs
+2025-07-27 17:42:56.151 [info] Locator Locators took 208.714344ms
+2025-07-27 17:42:56.151 [info] Locator Path took 324.367494ms
+2025-07-27 17:42:56.151 [info] Locator Workspaces took 88.812249ms
+2025-07-27 17:42:56.151 [info] Refresh completed in 324ms
+2025-07-27 17:44:00.826 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 17:44:39.538 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 17:46:03.583 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 17:46:49.827 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 17:47:27.757 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:07:11.802 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:17:34.475 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:19:41.335 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:32:33.754 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:47:06.207 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:53:29.820 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 18:59:32.671 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 19:00:25.894 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 19:02:14.042 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 19:05:50.051 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 19:06:43.218 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python
+2025-07-27 19:07:25.446 [info] Resolved Python Environment /home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python

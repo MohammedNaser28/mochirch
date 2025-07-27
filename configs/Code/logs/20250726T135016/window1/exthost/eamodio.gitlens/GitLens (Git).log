@@ -1,0 +1,4 @@
+2025-07-26 13:50:21.366 [info] [2025-07-26 10:50:21.338] [        107ms] [/home/mochi-002/Documents/DB - Programmong/competitive] git rev-parse --show-toplevel • FAILED
+2025-07-26 13:50:21.366 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+

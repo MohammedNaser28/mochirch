@@ -1,0 +1,65 @@
+/* h2 {
+    background-color: blanchedalmond;
+    color: black;
+    width: 343px;
+    
+}
+
+h4 {
+    background-color: black;
+    color: yellow;
+    width: 560px;
+}
+
+h5 {
+    background-color: black;
+    color: azure;
+    width: 560px;
+}
+
+button {
+    background-color: blue;
+    color: azure;
+    width: 280px;
+    height: 50px;
+} */
+
+h2 {
+    background-color: #232946; /* أزرق داكن */
+    color: #eebbc3;           /* وردي فاتح */
+    width: 343px;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+h4 {
+    background-color: #121629; /* أسود ليلي */
+    color: #eebbc3;            /* وردي فاتح */
+    width: 560px;
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+h5 {
+    background-color: #121629; /* أسود ليلي */
+    color: #fffffe;            /* أبيض */
+    width: 560px;
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+button {
+    background-color: #393e46; /* رمادي غامق */
+    color: #eebbc3;            /* وردي فاتح */
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #232946; /* أزرق داكن عند المرور */
+    color: #fffffe;
+}

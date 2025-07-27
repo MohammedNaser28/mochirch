@@ -1,0 +1,60 @@
+Exit code: 1 Errors while compiling:
+/tmp/ccrikupg.o: in function `solve(int)':
+A_Recycling_Center.cpp:(.text+0xae): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0xd5): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x134): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccrikupg.o
+/tmp/ccrikupg.o: in function `pewpew()':
+A_Recycling_Center.cpp:(.text+0x1a6): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x1c2): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x1d3): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x1dc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x1fc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x226): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x231): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccrikupg.o
+A_Recycling_Center.cpp:(.text+0x24f): additional relocation overflows omitted from the output
+collect2: error: ld returned 1 exit status
+Exit code: 1 Errors while compiling:
+/tmp/ccL7wuPk.o: in function `solve(int)':
+A_Recycling_Center.cpp:(.text+0xae): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0xd5): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x134): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccL7wuPk.o
+/tmp/ccL7wuPk.o: in function `pewpew()':
+A_Recycling_Center.cpp:(.text+0x1a6): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x1c2): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x1d3): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x1dc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x1fc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x226): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x231): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccL7wuPk.o
+A_Recycling_Center.cpp:(.text+0x24f): additional relocation overflows omitted from the output
+collect2: error: ld returned 1 exit status
+Exit code: 1 Errors while compiling:
+/tmp/ccjEVSCm.o: in function `solve(int)':
+A_Recycling_Center.cpp:(.text+0xae): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0xd5): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x134): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccjEVSCm.o
+/tmp/ccjEVSCm.o: in function `pewpew()':
+A_Recycling_Center.cpp:(.text+0x1a6): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x1c2): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x1d3): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x1dc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x1fc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x226): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x231): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccjEVSCm.o
+A_Recycling_Center.cpp:(.text+0x24f): additional relocation overflows omitted from the output
+collect2: error: ld returned 1 exit status
+Exit code: 1 Errors while compiling:
+/tmp/ccoAAef2.o: in function `solve(int)':
+A_Recycling_Center.cpp:(.text+0xae): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0xd5): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x134): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccoAAef2.o
+/tmp/ccoAAef2.o: in function `pewpew()':
+A_Recycling_Center.cpp:(.text+0x1a6): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x1c2): relocation truncated to fit: R_X86_64_PC32 against symbol `c' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x1d3): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x1dc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x1fc): relocation truncated to fit: R_X86_64_PC32 against symbol `a' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x226): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x231): relocation truncated to fit: R_X86_64_PC32 against symbol `n' defined in .bss section in /tmp/ccoAAef2.o
+A_Recycling_Center.cpp:(.text+0x24f): additional relocation overflows omitted from the output
+collect2: error: ld returned 1 exit status

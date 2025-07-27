@@ -1,0 +1,16 @@
+2025-07-27 23:16:11.996 [info] (Client) Pylance client (2025.7.1) started with python extension (2025.10.1)
+2025-07-27 23:16:12.815 [info] (29256) Server root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 23:16:12.816 [info] (29256) Pylance language server 2025.7.1 (pyright version 1.1.403, commit 8b02aa84) starting
+2025-07-27 23:16:12.833 [info] (29256) Starting service instance "dotfiles" for workspace "/home/mochi-002/dotfiles"
+2025-07-27 23:16:12.862 [info] (29256) Starting Mcp server id:4644 ...
+2025-07-27 23:16:12.901 [info] (29256) Setting environmentName for service "dotfiles": "3.13.5 (global)"
+2025-07-27 23:16:12.902 [info] (29256) Setting pythonPath for service "dotfiles": "/bin/python"
+2025-07-27 23:16:12.902 [info] (29256) No include entries specified; assuming /home/mochi-002/dotfiles
+2025-07-27 23:16:12.902 [info] (29256) Auto-excluding **/node_modules
+2025-07-27 23:16:12.902 [info] (29256) Auto-excluding **/__pycache__
+2025-07-27 23:16:12.902 [info] (29256) Auto-excluding **/.*
+2025-07-27 23:16:12.923 [info] (29256) Assuming Python version 3.13.5.final.0
+2025-07-27 23:16:12.998 [info] (29256) Found 1 source file
+2025-07-27 23:16:13.001 [info] (29256) Settings have not changed. Skipping update.
+2025-07-27 23:16:13.408 [info] (29256) BG: Priority queue background worker(2) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 23:16:13.408 [info] (29256) BG: Priority queue background worker(2) started

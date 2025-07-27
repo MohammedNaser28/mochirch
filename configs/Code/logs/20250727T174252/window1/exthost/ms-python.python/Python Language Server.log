@@ -1,0 +1,35 @@
+2025-07-27 17:42:56.550 [info] (Client) Pylance client (2025.7.1) started with python extension (2025.10.1)
+2025-07-27 17:42:57.441 [info] (30180) Server root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 17:42:57.441 [info] (30180) Pylance language server 2025.7.1 (pyright version 1.1.403, commit 8b02aa84) starting
+2025-07-27 17:42:57.458 [info] (30180) Starting service instance "competitive" for workspace "/home/mochi-002/Documents/DB - Programmong/competitive"
+2025-07-27 17:42:57.488 [info] (30180) Starting Mcp server id:3384 ...
+2025-07-27 17:42:57.552 [info] (30180) Setting environmentName for service "competitive": "3.13.5 (.venv venv)"
+2025-07-27 17:42:57.552 [info] (30180) Setting pythonPath for service "competitive": "/home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python"
+2025-07-27 17:42:57.552 [info] (30180) No include entries specified; assuming /home/mochi-002/Documents/DB - Programmong/competitive
+2025-07-27 17:42:57.553 [info] (30180) Auto-excluding **/node_modules
+2025-07-27 17:42:57.553 [info] (30180) Auto-excluding **/__pycache__
+2025-07-27 17:42:57.553 [info] (30180) Auto-excluding **/.*
+2025-07-27 17:42:57.574 [info] (30180) Assuming Python version 3.13.5.final.0
+2025-07-27 17:42:57.634 [info] (30180) Found 1 source file
+2025-07-27 17:42:57.637 [info] (30180) Settings have not changed. Skipping update.
+2025-07-27 17:42:58.050 [info] (30180) BG: Priority queue background worker(2) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 17:42:58.053 [info] (30180) BG: Priority queue background worker(2) started
+2025-07-27 18:53:29.820 [info] (30180) Starting service instance "<default>" for workspace ""
+2025-07-27 18:53:29.865 [info] (30180) Setting environmentName for service "<default>": "3.13.5 (.venv venv)"
+2025-07-27 18:53:29.865 [info] (30180) Setting pythonPath for service "<default>": "/home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/python"
+2025-07-27 18:53:29.865 [info] (30180) No include entries specified; assuming /<default workspace root>
+2025-07-27 18:53:29.866 [info] (30180) Auto-excluding **/node_modules
+2025-07-27 18:53:29.866 [info] (30180) Auto-excluding **/__pycache__
+2025-07-27 18:53:29.866 [info] (30180) Auto-excluding **/.*
+2025-07-27 18:53:29.893 [info] (30180) Assuming Python version 3.13.5.final.0
+2025-07-27 18:53:29.929 [error] (30180) File or directory "/<default workspace root>" does not exist.
+2025-07-27 18:53:29.929 [info] (30180) No source files found.
+2025-07-27 18:53:30.076 [info] (30180) BG: Indexer background runner(3) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist (index)
+2025-07-27 18:53:30.076 [info] (30180) BG: Indexing(3) started
+2025-07-27 18:53:30.187 [info] (30180) Found 2 source files
+2025-07-27 18:53:30.424 [info] (30180) BG: scanned(3) 10 files over 1 exec env
+2025-07-27 18:53:30.515 [info] (30180) BG: Priority queue background worker(5) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 18:53:30.515 [info] (30180) BG: Priority queue background worker(5) started
+2025-07-27 18:53:30.786 [info] (30180) BG: indexed(3) 10 files over 1 exec env
+2025-07-27 18:53:30.811 [info] (30180) BG: Indexing finished(3).
+2025-07-27 19:06:43.583 [info] (30180) Found 3 source files

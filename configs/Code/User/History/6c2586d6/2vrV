@@ -1,0 +1,26 @@
+# E. Sets of Complementary Sums — Explanation
+
+## Problem Restatement
+
+Given integers \( n \) and \( x \), count the number of distinct sets \( Q \) of size \( n \) with elements in \( [1, x] \) such that \( Q \) can be represented as:
+\[
+Q = \{ s - a_i \mid 1 \leq i \leq m \}
+\]
+for some array \( a \) of positive integers, where \( s = \sum a_i \).
+
+## Mathematical Insight
+
+For any subset \( Q \) of size \( n \) from \( [1, x] \), there exists an array \( a \) such that \( Q \) is the set of complementary sums. This is because for any \( Q = \{q_1, ..., q_n\} \), you can set \( a_i = s - q_i \) for \( s > \max(Q) \), ensuring all \( a_i \) are positive.
+
+Thus, the answer is simply the number of ways to choose \( n \) distinct numbers from \( [1, x] \):
+
+\[
+\text{Answer} = \binom{x}{n}
+\]
+
+## Code Logic
+
+- Precompute factorials and modular inverses up to the maximum \( x \) needed.
+- For each test case, output \( \binom{x}{n} \) modulo \( 998244353 \), or 0 if \( n > x \).
+
+This approach is efficient and correct for the given constraints.

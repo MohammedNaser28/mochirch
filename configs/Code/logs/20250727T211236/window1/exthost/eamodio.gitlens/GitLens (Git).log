@@ -1,0 +1,4 @@
+2025-07-27 21:27:17.156 [info] [2025-07-27 18:27:17.154] [          9ms] [/home/mochi-002/dotfiles] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ • FAILED
+2025-07-27 21:27:17.156 [info] 
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/
+

@@ -1,38 +1,31 @@
 #!/bin/bash
 
-# Complete.sh: Install Mochiarch dotfiles, Elegant-grub2-themes, Momoisay repos, replace Hyprland configs, and manage display managers
+# Complete.sh: Install Mochiarch dotfiles, Elegant-grub2-themes, Momoisay repos, replace Hyprland configs, and manage display managers and notification/lock services
 
-# Exit on error
 set -e
 
-# Define variables
 DOTFILES_DIR="$HOME/dotfiles/configs"
 CONFIG_DIR="$HOME/.config"
 BACKUP_DIR="$HOME/dotfiles/backup"
 USER=$(whoami)
 LOG_FILE="$HOME/dotfiles/install.log"
 
-# Function to log messages
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
 }
 
-# Function to check if a command exists
 command_exists() {
     command -v "$1" >/dev/null 2>&1
 }
 
-# Create backup directory
 log "Creating backup directory at $BACKUP_DIR"
 mkdir -p "$BACKUP_DIR"
 
-# Check if dotfiles/configs exists
 if [ ! -d "$DOTFILES_DIR" ]; then
     log "Error: $DOTFILES_DIR not found. Please ensure your dotfiles are in ~/dotfiles/configs/"
     exit 1
 fi
 
-# Install dependencies (git, yay for AUR)
 log "Installing required dependencies..."
 if ! command_exists git; then
     sudo pacman -S --noconfirm git
@@ -45,7 +38,6 @@ if ! command_exists yay; then
     cd -
 fi
 
-# Disable and uninstall SDDM
 log "Disabling and uninstalling SDDM..."
 if systemctl is-enabled sddm.service >/dev/null 2>&1; then
     sudo systemctl disable sddm.service
@@ -58,7 +50,6 @@ else
     log "SDDM not installed, skipping uninstallation"
 fi
 
-# Install and enable GDM
 log "Installing and enabling GDM..."
 if ! pacman -Qs gdm >/dev/null; then
     sudo pacman -S --noconfirm gdm
@@ -74,7 +65,49 @@ else
     fi
 fi
 
-# Install Elegant-grub2-themes from GitHub
+log "Disabling and uninstalling Dunst..."
+if systemctl is-enabled --user dunst.service >/dev/null 2>&1; then
+    systemctl --user disable dunst.service
+    log "Dunst disabled"
+fi
+if pacman -Qs dunst >/dev/null; then
+    sudo pacman -Rns --noconfirm dunst
+    log "Dunst uninstalled"
+else
+    log "Dunst not installed, skipping uninstallation"
+fi
+
+log "Installing and enabling Swaync..."
+if ! pacman -Qs swaync >/dev/null; then
+    sudo pacman -S --noconfirm swaync
+    systemctl --user enable swaync.service
+    log "Swaync installed and enabled"
+else
+    log "Swaync already installed"
+    if ! systemctl --user is-enabled swaync.service >/dev/null 2>&1; then
+        systemctl --user enable swaync.service
+        log "Swaync enabled"
+    else
+        log "Swaync already enabled"
+    fi
+fi
+
+log "Disabling and uninstalling Swaylock..."
+if pacman -Qs swaylock >/dev/null; then
+    sudo pacman -Rns --noconfirm swaylock
+    log "Swaylock uninstalled"
+else
+    log "Swaylock not installed, skipping uninstallation"
+fi
+
+log "Installing Hyprlock..."
+if ! pacman -Qs hyprlock >/dev/null; then
+    sudo pacman -S --noconfirm hyprlock
+    log "Hyprlock installed"
+else
+    log "Hyprlock already installed"
+fi
+
 log "Installing Elegant-grub2-themes from GitHub..."
 if [ ! -d "/tmp/Elegant-grub2-themes" ]; then
     git clone https://github.com/vinceliuice/Elegant-grub2-themes.git /tmp/Elegant-grub2-themes
@@ -85,7 +118,6 @@ else
     log "Elegant-grub2-themes repo already cloned"
 fi
 
-# Install Momoisay from GitHub
 log "Installing Momoisay repository from GitHub..."
 if [ ! -d "/tmp/Momoisay" ]; then
     git clone https://github.com/Mon4sm/Momoisay.git /tmp/Momoisay
@@ -103,13 +135,11 @@ else
     log "Momoisay repo already cloned"
 fi
 
-# Backup existing .config/hypr
 if [ -d "$CONFIG_DIR/hypr" ]; then
     log "Backing up existing Hyprland config to $BACKUP_DIR/hypr-$(date '+%Y%m%d%H%M%S')"
     mv "$CONFIG_DIR/hypr" "$BACKUP_DIR/hypr-$(date '+%Y%m%d%H%M%S')"
 fi
 
-# Symlink dotfiles from ~/dotfiles/configs/ to ~/.config/
 log "Symlinking dotfiles from $DOTFILES_DIR to $CONFIG_DIR..."
 mkdir -p "$CONFIG_DIR"
 for item in "$DOTFILES_DIR"/*; do
@@ -123,7 +153,6 @@ for item in "$DOTFILES_DIR"/*; do
     log "Symlinked $item to $target"
 done
 
-# Ensure Hyprland configs are replaced
 if [ -d "$DOTFILES_DIR/hypr" ]; then
     log "Replacing Hyprland configs in $CONFIG_DIR/hypr..."
     rm -rf "$CONFIG_DIR/hypr"
@@ -133,15 +162,12 @@ else
     log "Warning: Hyprland configs not found in $DOTFILES_DIR/hypr"
 fi
 
-# Set permissions
 log "Setting permissions for $CONFIG_DIR..."
 sudo chmod -R 700 "$CONFIG_DIR"
 
-# Install additional dependencies
-log "Installing additional dependencies (Hyprland, Waybar, Kitty, Rofi, Swaync, Fish)..."
-sudo pacman -S --noconfirm hyprland waybar kitty rofi swaync fish
+log "Installing additional dependencies (Hyprland, Waybar, Kitty, Rofi, Fish, Hyprlock)..."
+sudo pacman -S --noconfirm hyprland waybar kitty rofi fish hyprlock
 
-# Reboot
 log "Installation complete! Rebooting system..."
 read -p "Press Enter to reboot now..."
 sudo reboot

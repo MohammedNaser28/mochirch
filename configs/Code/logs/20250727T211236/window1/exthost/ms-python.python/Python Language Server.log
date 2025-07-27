@@ -1,0 +1,33 @@
+2025-07-27 21:13:40.685 [info] (Client) Pylance client (2025.7.1) started with python extension (2025.10.1)
+2025-07-27 21:13:40.965 [info] (75196) Server root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 21:13:40.966 [info] (75196) Pylance language server 2025.7.1 (pyright version 1.1.403, commit 8b02aa84) starting
+2025-07-27 21:13:40.979 [info] (75196) Starting service instance "dotfiles" for workspace "/home/mochi-002/dotfiles"
+2025-07-27 21:13:41.015 [info] (75196) Starting Mcp server id:3728 ...
+2025-07-27 21:13:41.056 [info] (75196) Setting environmentName for service "dotfiles": "3.13.5 (global)"
+2025-07-27 21:13:41.056 [info] (75196) Setting pythonPath for service "dotfiles": "/bin/python"
+2025-07-27 21:13:41.056 [info] (75196) No include entries specified; assuming /home/mochi-002/dotfiles
+2025-07-27 21:13:41.057 [info] (75196) Auto-excluding **/node_modules
+2025-07-27 21:13:41.057 [info] (75196) Auto-excluding **/__pycache__
+2025-07-27 21:13:41.057 [info] (75196) Auto-excluding **/.*
+2025-07-27 21:13:41.078 [info] (75196) Assuming Python version 3.13.5.final.0
+2025-07-27 21:13:41.254 [info] (75196) Found 59 source files
+2025-07-27 21:13:41.266 [info] (75196) Settings have not changed. Skipping update.
+2025-07-27 21:13:41.267 [info] (75196) Starting service instance "<default>" for workspace ""
+2025-07-27 21:13:41.471 [info] (75196) Setting environmentName for service "<default>": "3.13.5 (global)"
+2025-07-27 21:13:41.472 [info] (75196) Setting pythonPath for service "<default>": "/bin/python"
+2025-07-27 21:13:41.472 [info] (75196) No include entries specified; assuming /<default workspace root>
+2025-07-27 21:13:41.472 [info] (75196) Auto-excluding **/node_modules
+2025-07-27 21:13:41.472 [info] (75196) Auto-excluding **/__pycache__
+2025-07-27 21:13:41.472 [info] (75196) Auto-excluding **/.*
+2025-07-27 21:13:41.507 [info] (75196) Assuming Python version 3.13.5.final.0
+2025-07-27 21:13:41.568 [error] (75196) File or directory "/<default workspace root>" does not exist.
+2025-07-27 21:13:41.569 [info] (75196) No source files found.
+2025-07-27 21:13:41.748 [info] (75196) BG: Priority queue background worker(2) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 21:13:41.748 [info] (75196) BG: Priority queue background worker(2) started
+2025-07-27 21:13:42.053 [info] (75196) BG: Indexer background runner(3) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist (index)
+2025-07-27 21:13:42.053 [info] (75196) BG: Indexing(3) started
+2025-07-27 21:13:42.408 [info] (75196) BG: Priority queue background worker(5) root directory: file:///home/mochi-002/.vscode/extensions/ms-python.vscode-pylance-2025.7.1/dist
+2025-07-27 21:13:42.408 [info] (75196) BG: Priority queue background worker(5) started
+2025-07-27 21:13:42.645 [info] (75196) BG: scanned(3) 225 files over 1 exec env
+2025-07-27 21:13:43.809 [info] (75196) BG: indexed(3) 225 files over 1 exec env
+2025-07-27 21:13:43.851 [info] (75196) BG: Indexing finished(3).

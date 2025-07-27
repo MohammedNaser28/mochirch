@@ -1,0 +1,31 @@
+2025-07-27 17:42:54.522 [info] Native locator: Refresh started
+2025-07-27 17:42:54.522 [info] Native locator: Refresh started
+2025-07-27 17:42:54.522 [info] > pyenv which python
+2025-07-27 17:42:54.522 [info] cwd: ~/Documents/DB - Programmong/competitive
+2025-07-27 17:42:55.597 [info] Pyenv environment manager found at: /usr/bin/pyenv
+2025-07-27 17:42:55.625 [info] Python interpreter path: ./.venv/bin/python
+2025-07-27 17:42:56.152 [info] Native locator: Refresh finished in 1888 ms
+2025-07-27 17:42:57.472 [info] Starting Pylance language server.
+2025-07-27 17:46:51.245 [info] Send text to terminal: source "/home/mochi-002/Documents/DB - Programmong/competitive/.venv/bin/activate.fish"
+2025-07-27 18:53:35.916 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:54:09.800 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:54:12.292 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:54:13.575 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:54:28.120 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:54:29.139 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:55:46.974 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:56:40.657 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:57:52.881 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:58:09.042 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:58:11.013 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 18:58:15.299 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:00:32.365 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:00:38.089 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:00:43.192 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:00:45.477 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:00:46.479 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:00:53.208 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:01:01.621 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:02:00.983 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/D_Sum_of_LDS.py
+2025-07-27 19:06:45.588 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/C_Leftmost_Below.py
+2025-07-27 19:06:48.233 [info] Discover tests for workspace name: competitive - uri: /home/mochi-002/Documents/DB - Programmong/competitive/C_Leftmost_Below.py

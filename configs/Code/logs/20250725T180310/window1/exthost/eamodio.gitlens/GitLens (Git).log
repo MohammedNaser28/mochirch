@@ -1,0 +1,20 @@
+2025-07-25 18:03:18.201 [info] [2025-07-25 15:03:18.169] [         32ms] [/home/mochi-002/Documents/DB - Programmong/competitive] git rev-parse --show-toplevel • FAILED
+2025-07-25 18:03:18.201 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-25 18:03:18.274 [info] [2025-07-25 15:03:18.274] [         10ms] [/home/mochi-002/Documents/DB - Programmong/competitive] git rev-parse --show-toplevel • FAILED
+2025-07-25 18:03:18.274 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-25 18:03:58.132 [info] [2025-07-25 15:03:58.132] [         88ms] [/home/mochi-002/Documents/DB - Programmong/competitive/.vscode] git rev-parse --show-toplevel • FAILED
+2025-07-25 18:03:58.132 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-25 18:04:18.434 [info] [2025-07-25 15:04:18.433] [         12ms] [/home/mochi-002/Documents/DB - Programmong/competitive/.vscode] git rev-parse --show-toplevel • FAILED
+2025-07-25 18:04:18.434 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-25 18:04:45.510 [info] [2025-07-25 15:04:45.510] [         11ms] [/home/mochi-002/Documents/DB - Programmong/competitive/.vscode] git rev-parse --show-toplevel • FAILED
+2025-07-25 18:04:45.510 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
