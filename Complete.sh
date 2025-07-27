@@ -38,33 +38,6 @@ if ! command_exists yay; then
     cd -
 fi
 
-log "Disabling and uninstalling SDDM..."
-if systemctl is-enabled sddm.service >/dev/null 2>&1; then
-    sudo systemctl disable sddm.service
-    log "SDDM disabled"
-fi
-if pacman -Qs sddm >/dev/null; then
-    sudo pacman -Rns --noconfirm sddm
-    log "SDDM uninstalled"
-else
-    log "SDDM not installed, skipping uninstallation"
-fi
-
-log "Installing and enabling GDM..."
-if ! pacman -Qs gdm >/dev/null; then
-    sudo pacman -S --noconfirm gdm
-    sudo systemctl enable gdm.service
-    log "GDM installed and enabled"
-else
-    log "GDM already installed"
-    if ! systemctl is-enabled gdm.service >/dev/null 2>&1; then
-        sudo systemctl enable gdm.service
-        log "GDM enabled"
-    else
-        log "GDM already enabled"
-    fi
-fi
-
 log "Disabling and uninstalling Dunst..."
 if systemctl is-enabled --user dunst.service >/dev/null 2>&1; then
     systemctl --user disable dunst.service
