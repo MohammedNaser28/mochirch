@@ -1,0 +1,23 @@
+h2 {
+    background-color: blanchedalmond;
+    color: black;
+    width: 343px;
+    border-radius: 1%;
+}
+
+h4 {
+    background-color: black;
+    color: yellow;
+    width: 560px;
+}
+
+h5 {
+    background-color: black;
+    color: azure;
+    width: 560px;
+}
+
+button {
+    background-color: blue;
+    color: azure;
+}

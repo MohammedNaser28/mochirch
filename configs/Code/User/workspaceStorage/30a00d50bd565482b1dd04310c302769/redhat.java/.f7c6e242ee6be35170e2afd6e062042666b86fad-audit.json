@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/mochi-002/.config/Code/User/workspaceStorage/30a00d50bd565482b1dd04310c302769/redhat.java/.f7c6e242ee6be35170e2afd6e062042666b86fad-audit.json",
+    "files": [
+        {
+            "date": 1753160282371,
+            "name": "/home/mochi-002/.config/Code/User/workspaceStorage/30a00d50bd565482b1dd04310c302769/redhat.java/client.log.2025-07-22",
+            "hash": "f67fff41537a9f4ae8c27751e799d5ab65a3ac98212c069da49b51bb7ec4f6ab"
+        }
+    ],
+    "hashType": "sha256"
+}

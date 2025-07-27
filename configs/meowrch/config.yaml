@@ -1,0 +1,88 @@
+current-wtheme: catppuccin-mocha
+current-wwallpaper: /home/mochi-002/.config/meowrch/wallpapers/73.png
+current-xtheme: catppuccin-mocha
+current-xwallpaper: /home/mochi-002/.config/meowrch/themes/catppuccin-mocha/wallpapers/1.png
+custom-wallpapers:
+- ~/.config/meowrch/wallpapers/73.png
+- ~/.config/meowrch/wallpapers/74.jpg
+themes:
+  Nord:
+    available_wallpapers:
+    - ~/.config/meowrch/themes/Nord/wallpapers/56.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/57.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/58.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/59.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/60.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/61.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/62.jpg
+    - ~/.config/meowrch/themes/Nord/wallpapers/63.gif
+    - ~/.config/meowrch/themes/Nord/wallpapers/64.jpg
+    - ~/.config/meowrch/themes/Nord/wallpapers/65.jpg
+    - ~/.config/meowrch/themes/Nord/wallpapers/66.jpg
+    - ~/.config/meowrch/themes/Nord/wallpapers/67.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/68.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/69.jpg
+    - ~/.config/meowrch/themes/Nord/wallpapers/70.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/71.png
+    - ~/.config/meowrch/themes/Nord/wallpapers/72.png
+  Rose-Pine:
+    available_wallpapers:
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/38.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/39.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/40.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/41.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/42.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/43.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/44.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/45.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/46.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/47.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/48.jpeg
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/49.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/50.jpg
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/51.jpg
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/52.png
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/53.jpg
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/54.jpg
+    - ~/.config/meowrch/themes/Rose-Pine/wallpapers/55.jpg
+  catppuccin-latte:
+    available_wallpapers:
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/23.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/24.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/25.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/26.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/27.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/28.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/29.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/30.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/31.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/32.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/33.png
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/34.jpg
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/35.jpg
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/36.jpg
+    - ~/.config/meowrch/themes/catppuccin-latte/wallpapers/37.jpg
+  catppuccin-mocha:
+    available_wallpapers:
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/1.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/2.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/3.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/4.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/5.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/6.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/7.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/8.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/9.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/10.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/11.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/12.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/13.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/14.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/15.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/16.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/17.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/18.png
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/19.jpg
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/20.jpg
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/21.jpg
+    - ~/.config/meowrch/themes/catppuccin-mocha/wallpapers/22.png

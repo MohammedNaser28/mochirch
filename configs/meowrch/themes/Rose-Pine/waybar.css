@@ -1,0 +1,187 @@
+@define-color bar-bg rgba(25, 23, 36, 0.0);
+@define-color main-bg rgba(25, 23, 36, 0.85);
+@define-color main-fg rgba(224, 222, 244, 1);
+
+@define-color wb-act-bg rgba(235, 110, 146, 0.85);      /* Rose background */
+@define-color wb-act-fg rgba(25, 23, 36, 0.9);
+@define-color wb-hvr-bg rgba(75, 39, 60, 0.6);
+@define-color wb-hvr-fg rgba(224, 222, 244, 0.8);
+@define-color border-glow rgba(235, 110, 146, 0.3);
+
+/* Rose Pine - Red Tones Focused */
+@define-color rp-love   #eb6f92;
+@define-color rp-rose   #ea9a97;
+@define-color rp-pine   #191724;
+
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0.4);
+    color: #e0def4;
+}
+
+tooltip {
+    background: #1f1d2e;
+    border-radius: 7px;
+    border: 2px solid @rp-love;
+    padding: 5px;
+}
+
+#workspaces,
+#taskbar {
+    padding: 0px;
+}
+
+#workspaces {
+    background: transparent;
+    border-radius: 7px;
+    margin-left: 5px;
+    padding-right: 0px;
+}
+
+#workspaces button {
+    background: transparent;
+    color: #403d52;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+#workspaces button.active {
+    color: @rp-love;
+}
+
+#workspaces button.focused {
+    background: rgba(235, 110, 146, 0.3);
+    color: @rp-rose;
+    border-radius: 13px;
+}
+
+#workspaces button.persistent {
+    color: @rp-rose;
+}
+
+#workspaces button.empty {
+    color: #403d52;
+}
+
+#workspaces button.visible {
+    color: @rp-love;
+    box-shadow: inset 0 -1px #1e1e2e;
+}
+
+#workspaces button.urgent {
+    color: #f38ba8;
+}
+
+#language,
+#cpu,
+#window,
+#clock,
+#pulseaudio,
+#pulseaudio.microphone,
+#workspaces,
+#tray,
+#memory,
+#disk,
+#custom-bluetooth,
+#custom-networkmanager,
+#custom-power {
+    opacity: 1.0;
+    padding: 1.5px 7px;
+    margin: 5px 5px;
+    border-radius: 13px;
+}
+
+#window {
+    border-radius: 7px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: @rp-rose;
+}
+
+#custom-notifications {
+    color: @rp-rose;
+    border-radius: 7px;
+    padding: 0 15px;
+    margin: 0 2px;
+}
+
+#custom-updates {
+    color: @rp-love;
+    border-radius: 7px;
+    margin: 0 2px;
+}
+
+#custom-player {
+    color: @rp-rose;
+    border-radius: 7px;
+    padding-left: 4px;
+    margin: 0 5px;
+}
+
+#cpu {
+    color: @rp-love;
+    border-radius: 7px 0 0 7px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+#memory {
+    color: @rp-rose;
+    border-radius: 0;
+    margin: 0;
+}
+
+#disk {
+    color: @rp-love;
+    border-radius: 0 7px 7px 0;
+    margin-right: 0;
+}
+
+#custom-networkmanager {
+    color: @rp-rose;
+    border-radius: 7px 0 0 7px;
+    margin-right: 0;
+}
+
+#custom-bluetooth {
+    color: @rp-love;
+    border-radius: 0;
+    margin: 0;
+}
+
+#custom-power {
+    color: @rp-love;
+    border-radius: 0 7px 7px 0;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#pulseaudio {
+    color: @rp-rose;
+    border-radius: 0;
+    margin: 0;
+}
+
+#pulseaudio.microphone {
+    color: @rp-love;
+    border-radius: 0;
+    margin: 0;
+}
+
+#language {
+    border-radius: 7px 0 0 7px;
+    margin-right: 0;
+}
+

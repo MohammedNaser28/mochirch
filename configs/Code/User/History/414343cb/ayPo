@@ -1,0 +1,33 @@
+a --> done
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k --> done 
+l --> done
+
+/*
+    k and l --> aces
+    a 
+        - for each monster:
+            Choose an attack type (not the same as the previous monster's).
+            Use that attack repeatedly until the monster is defeated (multiple hits may be needed).
+            Then move to the next monster, picking a different attack type.
+        - dp[i][last]
+            n could be 10000 so is not recursive its itrative
+            last is the attack used for monster i-1.
+                0 (head), 1 (leg), 2 (arm), or 3 (none/initial state).
+    f
+        7   111
+        11  1011
+        12  1100
+        3   11
+        17  10001
+
+*/
+

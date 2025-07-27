@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.rulers": [],
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "iomanip": "cpp"
+  }
+}
